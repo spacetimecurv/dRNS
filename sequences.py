@@ -1,3 +1,8 @@
+###########################################
+# Small script to read in the sequence    #
+#     files, with small examples          #
+###########################################
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import interpolate
@@ -6,7 +11,10 @@ import os
 sequences = {}
 sequences_intp = {}
 
-for file in sorted(os.listdir("/Users/oliversteppohn/Desktop/BAM/scripts/plot/seq"),reverse=True):
+# your path to the sequence files once downlaoded
+parent_path = ""
+
+for file in sorted(os.listdir(parent_path),reverse=True):
     key = file.split(sep=".")[0]
     A = key.split("A")[1].split("r")[0]
     r = key.split("A")[1].split("r")[1]
