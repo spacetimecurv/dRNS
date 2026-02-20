@@ -30,7 +30,7 @@ for file in sorted(os.listdir(parent_path),reverse=True):
     if A not in sequences:
         sequences[A] = {}
 
-    with open(f"/Users/oliversteppohn/Desktop/BAM/scripts/plot/seq/{key}.txt", "r") as file:
+    with open(f"/path/to/sequences/{key}.txt", "r") as file:
         stor_arr = []
         file.readline()
         for line in file:
