@@ -1,2 +1,2 @@
 # dRNS
-This repository contains initial data sequences from 130 different differentially rotating neutron star models, as well as the outcome of a numerical evolution of these models with the NR code BAM (Paper: https://journals.aps.org/prd/abstract/10.1103/hnhc-m4lw).
+This repository contains initial data sequences of 130 different differentially rotating neutron star models, that were created with a modified version of the RNS initial data solver (https://github.com/cgca/rns) implemented in BAM/Whisky (Paper: https://journals.aps.org/prd/abstract/10.1103/hnhc-m4lw).
